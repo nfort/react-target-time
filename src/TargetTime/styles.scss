@@ -1,0 +1,93 @@
+:local(.styles) {
+  $root: &;
+  table-layout: fixed;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+
+  #{$root}__day-checkbox,
+  #{$root}__times-container {
+    vertical-align: middle;
+  }
+
+  #{$root}__day-checkbox {
+    padding-right: .7em;
+  }
+
+  #{$root}__hour-checkbox {
+    & > div {
+
+    }
+  }
+
+  #{$root}__days-row {
+    &:last-child {
+      #{$root}__toggle {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  #{$root}__time-cell {
+    cursor: cell;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+
+    #{$root}__toggle__icon--active,
+    #{$root}__toggle__icon--inactive {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+
+    #{$root}__toggle__icon--active {
+      display: none;
+    }
+
+    #{$root}__toggle__icon--inactive {
+      display: block;
+    }
+
+    &__time-checkbox {
+      padding-top: .7em;
+      opacity: 1;
+      word-wrap: break-word;
+      text-align: center;
+    }
+
+    &--active {
+      #{$root}__toggle {
+        background: #048A81;
+        color: #fff;
+      }
+
+      #{$root}__toggle__icon--inactive {
+        display: none;
+      }
+
+      #{$root}__toggle__icon--active {
+        display: block;
+      }
+    }
+  }
+
+  #{$root}__toggle {
+    background: #F4F1DE;
+    color: #2E2D4D;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    position: relative;
+  }
+
+  #{$root}__toggle__icon {
+    display: none;
+    height: inherit;
+    width: inherit;
+  }
+}
