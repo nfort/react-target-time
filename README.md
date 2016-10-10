@@ -9,7 +9,7 @@ Features
  
  ## Usage
  Install via npm
- ```shell
+ ```
  $ npm install react-target-time
  ```
  
@@ -27,13 +27,13 @@ Features
  
  Install all the dependencies
  
- ```shell
- $ npm i
+ ```
+ $ npm install
  ```
  
  Run styleguide server
  
- ```shell
+ ```
  $ npm run styleguide-server
  ```
  
