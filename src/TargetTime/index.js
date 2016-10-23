@@ -6,7 +6,6 @@ import moment from 'moment';
 /* subcomponents */
 import MdAdd from 'react-icons/lib/md/add';
 import MdRemove from 'react-icons/lib/md/remove';
-// import 'rc-checkbox/assets/index.css';
 import Checkbox from 'rc-checkbox';
 
 /* component styles */
