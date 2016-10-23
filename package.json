@@ -1,8 +1,9 @@
 {
   "name": "react-target-time",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "component for select hour on week",
+  "keywords": ["react","component","week","time","hour","select","moment"],
+  "main": "src/TargetTime/index.js",
   "scripts": {
     "styleguide-server": "styleguidist server",
     "styleguide-build": "styleguidist build"
@@ -11,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/nfort/react-target-time.git"
   },
-  "author": "",
+  "author": "nfort",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nfort/react-target-time/issues"
